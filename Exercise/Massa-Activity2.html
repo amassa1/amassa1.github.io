@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Massa-Activity2.css" rel="stylesheet" type="text/css">
+    <title>Activity 2</title>
+</head>
+
+
+
+<body>
+
+
+    <header>
+    </header>
+
+    <main>
+        <h2>Activity #2: HTML Tables</h2>
+
+            <h3>My Tabular Data</h3>
+                <ol>
+                    <li>Naruto Uzumaki, nuzumaki@gmail.com, 16</li>
+                    <li>Sasuke Uchiha, suchiha@gmail.com, 17</li>
+                    <li>Sakura Haruno, sharuno@gmail.com, 15</li>
+                    <li>Kakashi Hatake, khatake@gmail.com, 30</li>
+                    <li>Neji Hyga, nhyuga@gmail.com, 16</li>
+                    <li>Rock Lee, rlee@gmail.com, 18</li>
+                    <li>Itachi Uchiha, iuchiha@gmail.com, 23</li>
+                </ol>
+            <h3>Employees data in table</h3>
+
+            <h3>Employee Data in Simple Table</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>E-mail</th>
+                        <th>Years of Service</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Naruto Uzumaki</td>
+                        <td>nuzumaki@gmail.com</td>
+                        <td>16</td>
+                    </tr>
+                    <tr>
+                        <td>Sasuke Uchiha</td>
+                        <td>suchiha@gmail.com</td>
+                        <td>17</td>
+                    </tr>
+                    <tr>
+                        <td>Sakura Haruno</td>
+                        <td>sharuno@gmail.com</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td>Kakashi Hatake</td>
+                        <td>khatake@gmail.com</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>Neji Hyuga</td>
+                        <td>nhyuga@gmail.com</td>
+                        <td>16</td>
+                    </tr>
+                    <tr>
+                        <td>Rock Lee</td>
+                        <td>rlee@gmail.com</td>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <td>Itachi Uchiha</td>
+                        <td>iuchiha@gmail.com</td>
+                        <td>23</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Employee Data in Complex Table</h3>
+            <figure>
+                <table id = "complexTable">
+                    <thead>
+                        <tr>
+                            <th id = "department">Department</th>
+                            <th id = "name">Name</th>
+                            <th id = "email">E-mail</th>
+                            <th id = "years">Years of Service</th>
+                            <th id = "salary">Monthly Salary</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td headers="department" rowspan=3>Combat</td>
+                            <td headers="name">Naruto Uzumaki</td>
+                            <td headers="email">nuzumaki@gmail.com</td>
+                            <td headers="years">16</td>
+                            <td headers="salary">$5000</td>
+                        </tr>
+                        <tr>
+                            <td headers="name">Sasuke Uchiha</td>
+                            <td headers="email">suchiha@gmail.com</td>
+                            <td headers="years">17</td>
+                            <td headers="salary">$6000</td>
+                        </tr>
+                        <tr>
+                            <td headers="name">Sakura Haruno</td>
+                            <td headers="email">sharuno@gmail.com</td>
+                            <td headers="years">15</td>
+                            <td headers="salary">$4000</td>
+                        </tr>
+                        <tr>
+                            <td headers="department" rowspan=2>Intelligence</td>
+                            <td headers="name">Kakashi Hatake</td>
+                            <td headers="email">khatake@gmail.com</td>
+                            <td headers="years">30</td>
+                            <td headers="salary">$10000</td>
+                        </tr>
+                        <tr>
+                            <td headers="name">Neji Hyuga</td>
+                            <td headers="email">nhyuga@gmail.com</td>
+                            <td headers="years">16</td>
+                            <td headers="salary">$7000</td>
+                        </tr>
+                        <tr>
+                            <td headers="department">Combat</td>
+                            <td headers="name">Rock Lee</td>
+                            <td headers="email">rlee@gmail.com</td>
+                            <td headers="years">18</td>
+                            <td headers="salary">$6000</td>
+                        </tr>
+                        <tr>
+                            <td headers="department">Management</td>
+                            <td headers="name">Itachi Uchiha</td>
+                            <td headers="email">iuchiha@gmail.com</td>
+                            <td headers="age">23</td>
+                            <td headers="salary">$12000</td>
+                        </tr>
+                        <tr>
+                            <th colspan = 3>Total Years of Service</th>          
+                            <td headers = "years">135</td>
+                            <td headers="salary">$50000</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+                <figcaption>The Hidden Leaf Employees</figcaption>             
+            </figure>
+    </main>
+
+
+    <footer>
+        <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+        <br>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+    </footer>
+</body>
+</html>
