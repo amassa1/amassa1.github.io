@@ -1,0 +1,12 @@
+#complexTable thead:nth-child(1){
+    background-color: darkslategray;
+    color: white;
+}
+
+#complexTable tr:nth-child(even){
+    background-color: grey;
+}
+
+#complexTable tr:nth-child(1 + odd){
+    background-color: lightgray;
+}
